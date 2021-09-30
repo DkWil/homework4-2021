@@ -31,7 +31,8 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-  background-color: #417243;
+  background-color: #DDDDDD;
+  background-repeat: no-repeat;
   background-image: url("../images/pigeon-background.JPEG") ;
   /*Req 1*/
 }
@@ -64,8 +65,9 @@ a{ font-size: 16px;
 
 
 td{text-align: center;
-  border: 2px #000000;
+  border-top: 2px solid #000000;
   padding: 10px;
+  
   
 }
 
@@ -74,6 +76,7 @@ td{text-align: center;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   background:#7e0825 ;
@@ -82,7 +85,8 @@ td{text-align: center;
 }
 
 
-.rowhead{ border-top: 2px #000000;
+.rowhead{ border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
   text-align: center;
   
 
