@@ -92,7 +92,9 @@ td{text-align: center;
 
 
 }
-
+ tr:hover{opacity: 0.25;
+background-color: white;
+color: #000000;}
 
 table{
     border: 5px solid #000000;
